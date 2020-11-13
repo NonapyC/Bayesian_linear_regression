@@ -42,8 +42,7 @@ plt.title("Data set")
 plt.show()
 ```
 
-
-![png](output_6_0.png)
+![output_6_0](https://user-images.githubusercontent.com/54795218/99033516-6b59e700-25be-11eb-83fc-1896031b4821.png)
 
 
 上図のような30点のデータが得られているとして、このデータをもとに線形回帰を行う。パラメータである$a$と$b$を以下で推定する。
@@ -76,8 +75,7 @@ plt.title("Prior distribution")
 plt.show()
 ```
 
-
-![png](output_11_0.png)
+![output_11_0](https://user-images.githubusercontent.com/54795218/99033524-6eed6e00-25be-11eb-95f6-fa64ac1dfeea.png)
 
 
 ## 1.3.尤度関数
@@ -113,8 +111,7 @@ plt.title("Likelhood function")
 plt.show()
 ```
 
-
-![png](output_14_0.png)
+![output_14_0](https://user-images.githubusercontent.com/54795218/99033529-7280f500-25be-11eb-896b-e0e8c922d663.png)
 
 
 上図では、30個あるデータセット$\{(x_i,y_i),i=1,2,...,30\}$のうち1個のデータ$（x_1,y_1)$を用いて尤度関数を計算している。
@@ -135,7 +132,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![output_17_0](https://user-images.githubusercontent.com/54795218/99033530-73198b80-25be-11eb-82c0-69d80b489a92.png)
 
 
 パラメータの分布が事前分布からより尖ったことがわかる。
@@ -169,7 +166,8 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![output_23_0](https://user-images.githubusercontent.com/54795218/99033531-73b22200-25be-11eb-9c8a-66b21148a06b.png)
+
 
 
 事後分布を更新する。
@@ -186,7 +184,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![output_25_0](https://user-images.githubusercontent.com/54795218/99033532-73b22200-25be-11eb-86f1-e48578d07c6a.png)
 
 
 はじめにデータセットを生成する時に仮定して与えた$a=0.25、b=-0.5$に近い値に分布が集中していることがわかる。
